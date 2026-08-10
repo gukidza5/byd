@@ -1,0 +1,26 @@
+[
+  {
+    "name": "F-Droid (สโตร์เสริม)",
+    "packageName": "org.fdroid.fdroid",
+    "icon": "🤖",
+    "desc": "ร้านแอปโอเพนซอร์ส ลงได้ทันที",
+    "apkUrl": "https://f-droid.org/F-Droid.apk",
+    "category": "สโตร์"
+  },
+  {
+    "name": "YouTube",
+    "packageName": "com.google.android.youtube",
+    "icon": "▶️",
+    "desc": "ดูวิดีโอ/เพลง",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  },
+  {
+    "name": "Netflix",
+    "packageName": "com.netflix.mediaclient",
+    "icon": "🔴",
+    "desc": "หนัง/ซีรีส์",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  }
+]

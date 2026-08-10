@@ -1,0 +1,12 @@
+[
+  { "name": "Dooflix",     "url": "https://dooflixlive.com/home", "icon": "🍿" },
+  { "name": "YouTube",     "url": "https://m.youtube.com",        "icon": "▶️" },
+  { "name": "TrueID",      "url": "https://trueid.net",           "icon": "🎬" },
+  { "name": "WeTV",        "url": "https://wetv.vip",             "icon": "📺" },
+  { "name": "iQIYI",       "url": "https://www.iq.com",           "icon": "🟢" },
+  { "name": "Viu",         "url": "https://www.viu.com",          "icon": "🟡" },
+  { "name": "Netflix",     "url": "https://www.netflix.com",      "icon": "🔴" },
+  { "name": "Prime Video", "url": "https://www.primevideo.com",   "icon": "🎥" },
+  { "name": "Bilibili",    "url": "https://www.bilibili.tv",      "icon": "🅱️" },
+  { "name": "Twitch",      "url": "https://m.twitch.tv",          "icon": "🎮" }
+]
