@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "2.2",
+  "versionCode": 15,
+  "versionName": "2.4",
   "apkUrl": "https://raw.githubusercontent.com/gukidza5/byd/main/BYD-Media-Center.apk",
-  "notes": "เพิ่มระบบทดลองใช้ฟรี 2 เดือน + ปลดล็อกด้วยรหัส + SmartTube ดู YouTube ลื่นไม่มีโฆษณา"
+  "notes": "อากาศตามตำแหน่งจริง (GPS) — อยู่จังหวัดไหนขึ้นจังหวัดนั้นอัตโนมัติ"
 }
