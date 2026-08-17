@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "2.4",
+  "versionCode": 16,
+  "versionName": "2.5",
   "apkUrl": "https://cdn.jsdelivr.net/gh/gukidza5/byd@main/BYD-Media-Center.apk",
-  "notes": "อากาศตามตำแหน่งจริง (GPS) — อยู่จังหวัดไหนขึ้นจังหวัดนั้นอัตโนมัติ"
+  "notes": "เอา SmartTube ออก (เด้ง error บนจอสัมผัส) — ใช้ NewPipe ดู YouTube ไม่มีโฆษณาแทน"
 }
