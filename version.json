@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "2.5",
+  "versionCode": 17,
+  "versionName": "2.6",
   "apkUrl": "https://cdn.jsdelivr.net/gh/gukidza5/byd@main/BYD-Media-Center.apk",
-  "notes": "เอา SmartTube ออก (เด้ง error บนจอสัมผัส) — ใช้ NewPipe ดู YouTube ไม่มีโฆษณาแทน"
+  "notes": "เพิ่มทีวีสด (ช่องฟรีทีวีไทย) + วิทยุออนไลน์ + Telegram ในคลังแอป"
 }
