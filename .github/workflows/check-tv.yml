@@ -1,0 +1,61 @@
+name: check-tv
+
+# ไล่ยิงทุกช่องใน tv.json ทุกวัน ช่องไหนตายจริง (fail 3 วันติด) เอาออกเอง
+# รถดึง tv.json ผ่าน jsDelivr -> ได้รายการที่สะอาดโดยไม่ต้อง build APK ใหม่
+
+on:
+  schedule:
+    - cron: "30 20 * * *"      # 20:30 UTC = ตี 3 ครึ่ง เวลาไทย (ห่างจาก update-catalog ครึ่ง ชม.)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ยิงเช็คทุกช่อง
+        id: check
+        run: |
+          set +e
+          python tools/check-tv.py tv.json
+          code=$?
+          set -e
+          if [ "$code" = "10" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          elif [ "$code" = "0" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "สคริปต์พัง (exit $code)"
+            exit "$code"
+          fi
+
+      # tv-health.json เปลี่ยนทุกรอบ (ตัวนับ fail) เลย commit แยกเงียบๆ ไม่ต้องรอให้ช่องตาย
+      - name: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tv.json tv-health.json tv-removed.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "ไม่มีอะไรเปลี่ยน"
+          else
+            if [ "${{ steps.check.outputs.changed }}" = "true" ]; then
+              git commit -m "tv.json: ตัดช่องที่ตายออกอัตโนมัติ"
+            else
+              git commit -m "tv-health.json: อัปเดตสถานะการเช็คช่อง"
+            fi
+            git push
+          fi
+
+      - name: purge แคช jsDelivr
+        if: steps.check.outputs.changed == 'true'
+        continue-on-error: true
+        run: |
+          curl -sS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/tv.json" || true
