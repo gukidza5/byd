@@ -1,6 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "3.0",
+  "versionCode": 22,
+  "versionName": "3.1",
   "apkUrl": "https://cdn.jsdelivr.net/gh/gukidza5/byd@main/BYD-Media-Center.apk",
-  "notes": "คลังแอปอัปเดตเอง: ขึ้นปุ่ม \"อัปเดต\" เมื่อมีเวอร์ชันใหม่ • รองรับแอปแบบ split APK • แก้ TrueID ที่ลงแล้วแต่ขึ้นปุ่มติดตั้ง"
+  "notes": "ดึงคลังแอป/ช่องทีวี/เว็บ/วิทยุจาก GitHub ให้เองทุกเครื่อง ไม่ต้องตั้ง URL • Tubular (YouTube ไม่มีโฆษณา + ข้ามสปอนเซอร์) • ทีวีสด 44 ช่อง • ดูสดทนขึ้น"
 }
