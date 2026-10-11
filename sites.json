@@ -1,6 +1,7 @@
 [
-  { "name": "Dooflix",     "url": "https://dooflixlive.com/home", "icon": "🍿" },
   { "name": "YouTube",     "url": "https://m.youtube.com",        "icon": "▶️" },
+  { "name": "AIS PLAY",   "url": "https://aisplay.ais.co.th",    "icon": "📺" },
+  { "name": "Gemini AI",   "url": "https://gemini.google.com",    "icon": "✨" },
   { "name": "TrueID",      "url": "https://trueid.net",           "icon": "🎬" },
   { "name": "WeTV",        "url": "https://wetv.vip",             "icon": "📺" },
   { "name": "iQIYI",       "url": "https://www.iq.com",           "icon": "🟢" },

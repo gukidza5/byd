@@ -1,0 +1,9 @@
+[
+  { "name": "COOLISM",           "url": "https://coolism-web.cdn.byteark.com/;stream/1", "icon": "😎" },
+  { "name": "Top News",          "url": "https://live.topnews.co.th/hls/topnews.m3u8", "icon": "📰" },
+  { "name": "RequestRadio",      "url": "https://cast.requestradio.in.th:830/stream/", "icon": "🎵" },
+  { "name": "RequestRadio Dance","url": "https://cast.requestradio.in.th:850//stream/3", "icon": "💃" },
+  { "name": "RequestRadio Inter","url": "https://cast.requestradio.in.th:840//stream/3", "icon": "🌍" },
+  { "name": "BKK.FM",            "url": "https://rsas.bkk.fm/radio", "icon": "🏙️" },
+  { "name": "Flex 104.5",        "url": "https://streaming.flexconnect.net/voiceflex/voiceflex/playlist.m3u8", "icon": "🎶" }
+]

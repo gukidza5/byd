@@ -1,11 +1,76 @@
 [
   {
+    "name": "NewPipe — YouTube ไม่มีโฆษณา",
+    "packageName": "org.schabi.newpipe",
+    "icon": "▶️",
+    "desc": "ดู YouTube ฟรี ไม่มีโฆษณา ลื่น เหมาะกับจอสัมผัส (แนะนำ)",
+    "apkUrl": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.29.1/NewPipe_v0.29.1.apk",
+    "category": "ดูหนัง",
+    "source": {
+      "type": "github",
+      "repo": "TeamNewPipe/NewPipe"
+    },
+    "version": "0.29.1",
+    "versionCode": 0
+  },
+  {
+    "name": "Tubular — YouTube ไม่มีโฆษณา + ข้ามสปอนเซอร์",
+    "packageName": "org.polymorphicshade.tubular",
+    "icon": "⏭️",
+    "desc": "NewPipe เวอร์ชันเสริม: ไม่มีโฆษณา + SponsorBlock ข้ามช่วงโฆษณาในคลิปให้เอง (แนะนำ)",
+    "apkUrl": "https://github.com/polymorphicshade/Tubular/releases/download/v0.28.4/tubular_v0.28.4.apk",
+    "category": "ดูหนัง",
+    "source": {
+      "type": "github",
+      "repo": "polymorphicshade/Tubular"
+    },
+    "version": "0.28.4",
+    "versionCode": 0
+  },
+  {
+    "name": "Aurora Store (โหลดแอปจาก Play)",
+    "packageName": "com.aurora.store",
+    "icon": "🛒",
+    "desc": "โหลดแอปจาก Play Store ได้โดยไม่ต้องมีบัญชี Google (แนะนำ)",
+    "apkUrl": "https://f-droid.org/repo/com.aurora.store_76.apk",
+    "category": "สโตร์",
+    "source": {
+      "type": "fdroid"
+    },
+    "version": "4.8.4",
+    "versionCode": 76
+  },
+  {
+    "name": "AIS PLAY",
+    "packageName": "com.ais.mimo.AISPlay",
+    "icon": "📺",
+    "desc": "ทีวีสด/หนัง/กีฬา (ช่องฟรี 80+ ช่อง)",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  },
+  {
     "name": "F-Droid (สโตร์เสริม)",
     "packageName": "org.fdroid.fdroid",
     "icon": "🤖",
     "desc": "ร้านแอปโอเพนซอร์ส ลงได้ทันที",
     "apkUrl": "https://f-droid.org/F-Droid.apk",
     "category": "สโตร์"
+  },
+  {
+    "name": "Gemini (AI)",
+    "packageName": "com.google.android.apps.bard",
+    "icon": "✨",
+    "desc": "ผู้ช่วย AI ของ Google (ต้องมี Google Play Services)",
+    "apkUrl": "",
+    "category": "เครื่องมือ"
+  },
+  {
+    "name": "Telegram",
+    "packageName": "org.telegram.messenger",
+    "icon": "✈️",
+    "desc": "แชท/กลุ่ม ลงได้ทันที",
+    "apkUrl": "https://telegram.org/dl/android/apk",
+    "category": "เครื่องมือ"
   },
   {
     "name": "YouTube",
@@ -22,5 +87,82 @@
     "desc": "หนัง/ซีรีส์",
     "apkUrl": "",
     "category": "ดูหนัง"
+  },
+  {
+    "name": "Disney+ Hotstar",
+    "packageName": "in.startv.hotstar",
+    "icon": "✨",
+    "desc": "หนัง/การ์ตูน",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  },
+  {
+    "name": "Prime Video",
+    "packageName": "com.amazon.avod.thirdpartyclient",
+    "icon": "🎥",
+    "desc": "หนัง/ซีรีส์",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  },
+  {
+    "name": "TrueID",
+    "packageName": "com.tdcm.trueidapp",
+    "icon": "🎬",
+    "desc": "หนัง/บอล/ทีวี",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  },
+  {
+    "name": "WeTV",
+    "packageName": "com.tencent.qqlivei18n",
+    "icon": "📺",
+    "desc": "ซีรีส์จีน/ไทย",
+    "apkUrl": "",
+    "category": "ดูหนัง"
+  },
+  {
+    "name": "Spotify",
+    "packageName": "com.spotify.music",
+    "icon": "🎵",
+    "desc": "ฟังเพลง",
+    "apkUrl": "",
+    "category": "เพลง"
+  },
+  {
+    "name": "YouTube Music",
+    "packageName": "com.google.android.apps.youtube.music",
+    "icon": "🎧",
+    "desc": "ฟังเพลง",
+    "apkUrl": "",
+    "category": "เพลง"
+  },
+  {
+    "name": "VLC",
+    "packageName": "org.videolan.vlc",
+    "icon": "🔶",
+    "desc": "เล่นไฟล์หนังทุกฟอร์แมต",
+    "apkUrl": "https://f-droid.org/repo/org.videolan.vlc_13070108.apk",
+    "category": "เครื่องมือ",
+    "source": {
+      "type": "fdroid"
+    },
+    "version": "3.7.1",
+    "versionCode": 13070108
+  },
+  {
+    "name": "Google Maps",
+    "packageName": "com.google.android.apps.maps",
+    "icon": "🗺️",
+    "desc": "นำทาง",
+    "apkUrl": "",
+    "category": "นำทาง"
+  },
+  {
+    "name": "Chrome",
+    "packageName": "com.android.chrome",
+    "icon": "🌐",
+    "desc": "เว็บเบราว์เซอร์",
+    "apkUrl": "",
+    "category": "เครื่องมือ"
   }
 ]

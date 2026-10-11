@@ -1,6 +1,6 @@
 {
-  "versionCode": 20,
-  "versionName": "2.9",
+  "versionCode": 21,
+  "versionName": "3.0",
   "apkUrl": "https://cdn.jsdelivr.net/gh/gukidza5/byd@main/BYD-Media-Center.apk",
-  "notes": "เพิ่ม Aurora Store — โหลดแอปจาก Play Store ได้โดยไม่ต้องมีบัญชี Google"
+  "notes": "คลังแอปอัปเดตเอง: ขึ้นปุ่ม \"อัปเดต\" เมื่อมีเวอร์ชันใหม่ • รองรับแอปแบบ split APK • แก้ TrueID ที่ลงแล้วแต่ขึ้นปุ่มติดตั้ง"
 }
