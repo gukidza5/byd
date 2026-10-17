@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "3.1",
+  "versionCode": 23,
+  "versionName": "3.2",
   "apkUrl": "https://cdn.jsdelivr.net/gh/gukidza5/byd@main/BYD-Media-Center.apk",
-  "notes": "ดึงคลังแอป/ช่องทีวี/เว็บ/วิทยุจาก GitHub ให้เองทุกเครื่อง ไม่ต้องตั้ง URL • Tubular (YouTube ไม่มีโฆษณา + ข้ามสปอนเซอร์) • ทีวีสด 44 ช่อง • ดูสดทนขึ้น"
+  "notes": "เปลี่ยนชื่อแอปเป็น KNF Byd • การ์ด YouTube ไม่มีโฆษณาบนหน้าโฮม (กดค้าง = เว็บ) • ตัวดู YouTube ใหม่ KNF Tube (ตัวเก่าเปิดคลิปไม่ได้แล้ว) • ตั้งเป็นหน้าโฮมของรถได้ • หน้าล็อกถอนแอปที่ลงจากคลังได้"
 }

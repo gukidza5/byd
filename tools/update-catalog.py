@@ -62,10 +62,21 @@ def resolve_github(source):
     if not apks:
         raise ValueError("release ล่าสุดไม่มีไฟล์ .apk")
 
-    # เลี่ยง debug/sources ถ้ามีตัวเลือกอื่น
+    # บางโปรเจกต์แยก .apk ต่อ ABI (arm64-v8a / armeabi-v7a / x86_64) — จอรถเป็น arm64-v8a
+    # ใส่ "abi" ใน source เพื่อเลือก (ค่าปริยาย arm64-v8a); ไฟล์ที่ไม่ระบุ ABI = universal ใช้ได้ทุกเครื่อง
+    abi = (source.get("abi") or "arm64-v8a").lower()
+    all_abis = ("arm64-v8a", "armeabi-v7a", "x86_64", "x86")
+
     def rank(a):
         n = (a.get("name") or "").lower()
-        return (1 if ("debug" in n or "sources" in n) else 0, n)
+        bad = 1 if ("debug" in n or "sources" in n) else 0
+        if abi in n:
+            pref = 0                       # ตรง ABI ที่ต้องการ
+        elif any(x in n for x in all_abis):
+            pref = 2                       # ABI อื่น — ใช้ไม่ได้กับเครื่องเป้าหมาย
+        else:
+            pref = 1                       # universal
+        return (bad, pref, n)
 
     apks.sort(key=rank)
     best = apks[0]

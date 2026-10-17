@@ -1,9 +1,24 @@
 [
   {
-    "name": "NewPipe — YouTube ไม่มีโฆษณา",
-    "packageName": "org.schabi.newpipe",
+    "name": "YouTube ไม่มีโฆษณา — KNF Tube",
+    "packageName": "InfinityLoop1309.NewPipeEnhanced",
     "icon": "▶️",
-    "desc": "ดู YouTube ฟรี ไม่มีโฆษณา ลื่น เหมาะกับจอสัมผัส (แนะนำ)",
+    "desc": "ดู YouTube ไม่มีโฆษณา + ข้ามช่วงสปอนเซอร์ในคลิปให้เอง (แนะนำ)",
+    "apkUrl": "https://github.com/InfinityLoop1308/PipePipe/releases/download/v5.4.0/PipePipe_5.4.0-arm64-v8a-release.apk",
+    "category": "ดูหนัง",
+    "source": {
+      "type": "github",
+      "repo": "InfinityLoop1308/PipePipe",
+      "abi": "arm64-v8a"
+    },
+    "version": "5.4.0",
+    "versionCode": 0
+  },
+  {
+    "name": "NewPipe (ตัวสำรอง)",
+    "packageName": "org.schabi.newpipe",
+    "icon": "🔁",
+    "desc": "ใช้แทนชั่วคราวถ้าตัวหลักเปิดคลิปไม่ได้ (รอเขาอัปเดตตาม YouTube)",
     "apkUrl": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.29.1/NewPipe_v0.29.1.apk",
     "category": "ดูหนัง",
     "source": {
@@ -11,20 +26,6 @@
       "repo": "TeamNewPipe/NewPipe"
     },
     "version": "0.29.1",
-    "versionCode": 0
-  },
-  {
-    "name": "Tubular — YouTube ไม่มีโฆษณา + ข้ามสปอนเซอร์",
-    "packageName": "org.polymorphicshade.tubular",
-    "icon": "⏭️",
-    "desc": "NewPipe เวอร์ชันเสริม: ไม่มีโฆษณา + SponsorBlock ข้ามช่วงโฆษณาในคลิปให้เอง (แนะนำ)",
-    "apkUrl": "https://github.com/polymorphicshade/Tubular/releases/download/v0.28.4/tubular_v0.28.4.apk",
-    "category": "ดูหนัง",
-    "source": {
-      "type": "github",
-      "repo": "polymorphicshade/Tubular"
-    },
-    "version": "0.28.4",
     "versionCode": 0
   },
   {
