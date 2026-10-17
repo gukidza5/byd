@@ -142,13 +142,13 @@
     "packageName": "org.videolan.vlc",
     "icon": "🔶",
     "desc": "เล่นไฟล์หนังทุกฟอร์แมต",
-    "apkUrl": "https://f-droid.org/repo/org.videolan.vlc_13070108.apk",
+    "apkUrl": "https://f-droid.org/repo/org.videolan.vlc_13070208.apk",
     "category": "เครื่องมือ",
     "source": {
       "type": "fdroid"
     },
-    "version": "3.7.1",
-    "versionCode": 13070108
+    "version": "3.7.2",
+    "versionCode": 13070208
   },
   {
     "name": "Google Maps",
