@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "3.2",
+  "versionCode": 24,
+  "versionName": "3.3",
   "apkUrl": "https://cdn.jsdelivr.net/gh/gukidza5/byd@main/BYD-Media-Center.apk",
-  "notes": "เปลี่ยนชื่อแอปเป็น KNF Byd • การ์ด YouTube ไม่มีโฆษณาบนหน้าโฮม (กดค้าง = เว็บ) • ตัวดู YouTube ใหม่ KNF Tube (ตัวเก่าเปิดคลิปไม่ได้แล้ว) • ตั้งเป็นหน้าโฮมของรถได้ • หน้าล็อกถอนแอปที่ลงจากคลังได้"
+  "notes": "แก้ติดตั้งบนรถไม่ผ่าน (Fail in installation) • ใส่รหัสปลดล็อกไม่มีขีดก็ผ่าน • การ์ด YouTube ไม่มีโฆษณา (KNF Tube) • หน้าล็อกถอนแอปที่ลงจากคลังได้"
 }
