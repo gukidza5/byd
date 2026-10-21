@@ -4,14 +4,14 @@
     "packageName": "InfinityLoop1309.NewPipeEnhanced",
     "icon": "▶️",
     "desc": "ดู YouTube ไม่มีโฆษณา + ข้ามช่วงสปอนเซอร์ในคลิปให้เอง (แนะนำ)",
-    "apkUrl": "https://github.com/InfinityLoop1308/PipePipe/releases/download/v5.4.0/PipePipe_5.4.0-arm64-v8a-release.apk",
+    "apkUrl": "https://github.com/InfinityLoop1308/PipePipe/releases/download/v5.5.0/PipePipe_5.5.0-arm64-v8a-release.apk",
     "category": "ดูหนัง",
     "source": {
       "type": "github",
       "repo": "InfinityLoop1308/PipePipe",
       "abi": "arm64-v8a"
     },
-    "version": "5.4.0",
+    "version": "5.5.0",
     "versionCode": 0
   },
   {
